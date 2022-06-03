@@ -112,6 +112,13 @@ public class Step
 	@Then("Enter string in searchbox")
 	public void enter_string_in_searchbox() throws Exception 
 	{
+		Amazonlinks Lnk=new Amazonlinks(sh.driver);
+	    List<WebElement> count=Lnk.getAllHyperlinks();
+	    System.out.println(count);
+	    Thread.sleep(10000);
+	    List<String> brkn=Lnk.getBrokenlinks();
+	    System.out.println(brkn);
+	    Thread.sleep(10000);
 	    sh.driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Mobile");
 	    Thread.sleep(3000);
 	    sh.driver.findElement(By.xpath("//input[@type='submit']")).click();

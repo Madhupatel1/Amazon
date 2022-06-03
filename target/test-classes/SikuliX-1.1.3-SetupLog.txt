@@ -1,0 +1,59 @@
+[debug (23/5/22 8:11:56 PM)] Debug: setLogFile: C:\Users\madhu\eclipse-workspace\MyPracticeProject\src\test\resources\SikuliX-1.1.3-SetupLog.txt
+[debug (23/5/22 8:11:56 PM)] RunSetup: ... starting with no args given
+[debug (23/5/22 8:11:56 PM)] RunSetup: Setup: 1.1.3 2018-07-11_08:19 in folder:
+C:\Users\madhu\eclipse-workspace\MyPracticeProject\src\test\resources
+[debug (23/5/22 8:11:56 PM)] RunSetup: RunningSystem: Windows 10.0
+[debug (23/5/22 8:11:56 PM)] RunSetup: parent of jar/classes: C:\Users\madhu\eclipse-workspace\MyPracticeProject\src\test\resources
+[debug (23/5/22 8:11:56 PM)] RunSetup: RunningJava: Java 8 (amd64) 1.8.0_301-b09
+[debug (23/5/22 8:11:56 PM)] init user preferences
+[debug (23/5/22 8:12:04 PM)] RunSetup: 
+popAsk: --------------------
+The following file(s) will be downloaded to
+C:\Users\madhu\eclipse-workspace\MyPracticeProject\src\test\resources
+--- Native support libraries for Windows (sikulixlibs...)
+--- Package 2 ---
+sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar (Java API)
+Only click NO, if you want to terminate setup now!
+Click YES even if you want to use local copies in Downloads!
+--------------------
+[debug (23/5/22 8:12:06 PM)] RunSetup: 
+popAsk: --------------------
+You have for Windows native libs
+C:\Users\madhu\AppData\Roaming\Sikulix\SikulixDownloads\sikulixlibswin-1.1.1.jar
+Click YES, if you want to use this for setup processing
+... or click NO, to ignore it and download a fresh copy
+--------------------
+[debug (23/5/22 8:12:12 PM)] RunSetup: Copied from Downloads: sikulixlibswin
+[debug (23/5/22 8:12:12 PM)] FileManager: resetFolder:
+C:\Users\madhu\eclipse-workspace\MyPracticeProject\src\test\resources\SetupStuff\sikulixlibs\windows
+jar:file:/C:/Users/madhu/eclipse-workspace/MyPracticeProject/src/test/resources/sikulixlibswin.jar
+[debug (23/5/22 8:12:12 PM)] RunSetup: 
+popAsk: --------------------
+You have for Java API package
+C:\Users\madhu\AppData\Roaming\Sikulix\SikulixDownloads_201807110819\sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar
+Click YES, if you want to use this for setup processing
+... or click NO, to ignore it and download a fresh copy
+--------------------
+[debug (23/5/22 8:12:13 PM)] RunSetup: Copied from Downloads: sikulixapi
+[debug (23/5/22 8:12:13 PM)] RunSetup: Download ended
+[debug (23/5/22 8:12:13 PM)] RunSetup: Downloads for selected options:
+sikulixlibswin-1.1.1.jar sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar 
+[debug (23/5/22 8:12:13 PM)] RunSetup: adding needed stuff to sikulixapi.jar
+[debug (23/5/22 8:12:13 PM)] FileManager: buildJar: sikulixtemp.jar
+[debug (23/5/22 8:12:13 PM)] FileManager: buildJar: adding: sikulixapi.jar
+[error (23/5/22 8:12:15 PM)] FileManager: buildJar: java.io.EOFException: Unexpected end of ZLIB input stream
+[debug (23/5/22 8:12:15 PM)] RunSetup: renaming sikulixtemp.jar to target jar: sikulixapi.jar
+[debug (23/5/22 8:12:16 PM)] RunSetup: 
+popError: --------------------
+Bad things happened trying to add native stuff to selected jars --- terminating!
+--------------------
+[error (23/5/22 9:03:28 PM)] RunSetup: Adding stuff to jars did not work
+[error (23/5/22 9:03:28 PM)] RunSetup: ... terminated abnormally :-(
+[debug (23/5/22 9:03:28 PM)] RunSetup: 
+popError: --------------------
+Something serious happened! Sikuli not useable!
+Check the error log at C:\Users\madhu\eclipse-workspace\MyPracticeProject\src\test\resources\SikuliX-1.1.3-SetupLog.txt
+--------------------
+[debug (23/5/22 9:03:29 PM)] RunTimeSETUP: final cleanup
+[debug (23/5/22 9:03:29 PM)] FileManager: deleteFileOrFolder:
+C:\Users\madhu\AppData\Local\Temp\Sikulix_1505755601
